@@ -67,7 +67,7 @@ export default function Dashboard({ transactions = [] }) {
         </div>
       </div>
 
-      <div className="p-16 space-y-6">
+      <div className="p-6 space-y-6">
         {/* Total Balance */}
         <div className="bg-white p-6 rounded-xl shadow text-center">
           <p className="text-gray-500">Total Balance</p>
@@ -159,3 +159,4 @@ function Stat({ icon, label, value, color }) {
     </div>
   );
 }
+
